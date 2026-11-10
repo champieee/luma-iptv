@@ -1,0 +1,40 @@
+PASS: Xtream authentication and subscription status
+PASS: Reserved and Unicode credentials escaped in requests
+PASS: live library parsing with numeric IDs
+PASS: movie library parsing with numeric IDs
+PASS: series library parsing with numeric IDs
+PASS: Live URL and credential escaping
+PASS: Series episode URL and container
+PASS: Invalid container falls back to mp4
+PASS: Provider subpath and API endpoint normalization
+PASS: Reject unsupported server protocols
+PASS: Episodes sorted by season
+PASS: Base64 and plain program guide text
+PASS: Rejected credentials do not authenticate
+PASS: Malformed provider response handled without revealing credentials
+PASS: Cancelled provider requests stop loading
+PASS: Windows account encryption round trip
+PASS: Favorites isolated by account
+PASS: Bundled VLC opens local media
+PASS: VLC decodes and starts playback
+PASS: Pause playback
+PASS: Resume and seek playback
+PASS: Stop playback
+
+22 checks passed.
+
+PASS: Demo opens live library
+PASS: Search narrows titles
+PASS: Category filter
+PASS: Favorites filter
+PASS: Favorites empty state
+PASS: Movie navigation
+PASS: Series opens episodes
+PASS: Episode selection
+PASS: Compact layout preserves usable player
+PASS: Fullscreen isolates player
+PASS: Exit fullscreen restores library
+
+11 UI checks passed.
+
+Provider login and actual IPTV streams were not tested; no account credentials were supplied.

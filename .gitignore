@@ -1,0 +1,15 @@
+bin/
+obj/
+publish/
+*.user
+*.suo
+.vs/
+.env
+.env.*
+account.dat
+*.pdb
+test-results*.txt
+ui-results.txt
+login.png
+dashboard.png
+compact.png
